@@ -1,0 +1,35 @@
+{
+  "name": "estrutura-de-dados-i",
+  "version": "1.0.0",
+  "description": "Repositório destinado ao armazenamento de arquivos e conteúdos relacionados às aulas da disciplina Estrutura de Dados I. 🇧🇷",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/main.ts",
+    "start": "node dist/main.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vximoraes/estrutura-de-dados-I.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vximoraes/estrutura-de-dados-I/issues"
+  },
+  "homepage": "https://github.com/vximoraes/estrutura-de-dados-I#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.28.0",
+    "@typescript-eslint/parser": "^8.28.0",
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.4",
+    "prettier": "^3.5.3"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
+  }
+}
