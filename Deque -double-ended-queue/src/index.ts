@@ -123,6 +123,7 @@ console.log("-------------------------");
 deque.addFirst(1);
 deque.addLast(25);
 deque.addFirst(1);
+deque.addLast(25);
 
 // Imprimindo o deque após as adições
 console.log("Deque após adições:", deque.arr);
