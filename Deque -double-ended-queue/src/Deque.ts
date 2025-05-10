@@ -34,7 +34,7 @@ export class ArrayDeque<T> implements Deque<T> {
     }
 
     this.fim = this.incrementar(this.fim);
-    this.arr[this.fim - 1] = item;
+    this.arr[this.decermentar(this.fim)] = item;
   }
 
   removeFirst(): T | undefined {
